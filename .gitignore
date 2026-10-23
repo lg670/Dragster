@@ -1,0 +1,20 @@
+# === Filtros para o Arduino IDE ===
+code/**/.build/
+code/**/build/
+code/**/*.hex
+code/**/*.elf
+
+# === Filtros para o KiCad (Pastas hardware e pcb) ===
+hardware/*.bck
+hardware/*.kicad_prl
+hardware/*-bak
+hardware/*-backups/
+hardware/_autosave-*
+hardware/fp-info-cache
+
+pcb/*.bck
+pcb/*.kicad_prl
+pcb/*-bak
+pcb/*-backups/
+pcb/_autosave-*
+pcb/fp-info-cache
